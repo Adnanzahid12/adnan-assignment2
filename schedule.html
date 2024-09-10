@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Internal CSS-->
+    <style>
+        tr,
+        th,
+        td {
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        /*Table width*/
+        .custom-table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        /*Hover property*/
+        td:hover {
+            background-color: #f9f9f9;
+        }
+
+        th:hover {
+            background-color: #f9f9f9;
+        }
+    </style>
+
+
+    <title>Weekly Class Schedule</title>
+
+
+
+</head>
+
+<body>
+    <!--Heading-->
+    <h1>Class Schedule</h1>
+
+    <!--Table Section-->
+    <table class="custom-table">
+        <tr>
+            <th>Day</th>
+            <th>Time</th>
+            <th>Course Name</th>
+            <th>Instructor</th>
+            <th>Room Number</th>
+
+        </tr>
+
+        <tr>
+            <!--Table with 2 row space-->
+            <td rowspan="2">Monday</td>
+            <td>9:00-10:00</td>
+            <td>Introduction To Python</td>
+            <td>Dr. Smith</td>
+            <td>Room 101</td>
+        </tr>
+        <tr>
+            <td>12:00-1:30</td>
+            <td>Web Development</td>
+            <td>Prof. Mounika</td>
+            <td>Room 121</td>
+
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <!--Table with 2 column space-->
+            <td colspan="2">9:00-11:00</td>
+
+            <td>Prof. Sally</td>
+            <td>Room 143</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>9:00-10:00</td>
+            <td>Intro To Digital Forensics</td>
+            <td>Prof. Giraldo</td>
+            <td>Room 187</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td>12:00-1:00</td>
+            <td>General Biology I</td>
+            <td>Dr. Brown</td>
+            <td>Room 165</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Friday</td>
+            <td>9:00-10:30</td>
+            <td>Software Security</td>
+            <td>Prof. Hearle</td>
+            <td>Room 198</td>
+        </tr>
+        <tr>
+            <!--Table with 4 column span-->
+            <td colspan="4">Office Hours</td>
+        </tr>
+        </tr>
+    </table>
+
+    <!--Text with link-->
+    <p>Information about the courses can be found
+        <a href="https://bulletin.temple.edu/undergraduate/courses/cis/" target="_blank">Here</a>
+    </p>
+</body>
+
+
+
+
+
+</html>
